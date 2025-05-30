@@ -8,10 +8,8 @@ type ButtonProps = {
 
 export const Button = ({ icon, color = 'green', ...props }: ButtonProps) => {
   return (
-    <>
-      <button className={`${styles.button} ${styles[color]}`} {...props}>
-        {icon}
-      </button>{' '}
-    </>
+    <button className={`${styles.button} ${styles[color]}`} {...props}>
+      {icon}
+    </button>
   );
 };

@@ -4,10 +4,9 @@ export const Footer = () => {
   return (
     <footer className={styles.footer}>
       <a
-        href='https://en.wikipedia.org/wiki/Pomodoro_Technique'
-        target='_blank'
+        href='/about-pomodoro'
         rel='noopener noreferrer'
-        aria-label='Learn more about the Pomodoro Technique on Wikipedia. Opens in a new tab.'>
+        aria-label='Learn more about the Pomodoro Technique.'>
         Learn how the Pomodoro Technique works
       </a>
 

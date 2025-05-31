@@ -1,15 +1,10 @@
-import { TimerIcon } from 'lucide-react';
-import { Heading } from './components/Heading';
-import './styles/global.css';
-import './styles/theme.css';
+import { TaskContextProvider } from './contexts/TaskContext';
+import { Home } from './pages/Home';
 
 export const App = () => {
   return (
-    <Heading>
-      "My App"{''}
-      <button>
-        <TimerIcon />
-      </button>
-    </Heading>
+    <TaskContextProvider>
+      <Home />;
+    </TaskContextProvider>
   );
 };

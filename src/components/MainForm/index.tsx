@@ -17,10 +17,10 @@ export const MainForm = () => {
         />
       </div>
       <div className={styles.formRow}>
-        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Next break is in 25 minutes.</p>
       </div>
       <div className={styles.formRow}>
-        <Cycles />
+        <Cycles /> 
         <p>0 0 0 0 0 0 0</p>
       </div>
       <div className={styles.formRow}>
